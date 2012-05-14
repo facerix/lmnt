@@ -23,4 +23,6 @@ Currently lmnt.js provides its functionality as functions in a window-level name
 	var myFirstChild = lmnt.firstElementChild(parentNode);
 	
 
-There's no minified version yet, but it's coming. I may also provide an alternative script with a true polyfill, if I can figure out how to get IE 6 & 7 to play ball.
+Minified version coutesy of the awesome <a href="http://marijnhaverbeke.nl/uglifyjs">UglifyJS</a>.
+
+At some point I may also provide an alternative script with a true polyfill, if I can figure out how to get IE 6 & 7 to play ball. Or not, I haven't made up my mind yet.
