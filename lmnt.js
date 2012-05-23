@@ -54,8 +54,8 @@ window.lmnt = function() {
     }
 
     function _childElementCount( el ) {
+        // note that we can't use el.children because IE<9 lies, including comment nodes.
         if ( el && el.childElementCount ) { return el.childElementCount; }
-        if ( el && el.children ) { return el.children.length || 0; }
         var count = 0;
         el = el ? el.firstChild : null;
         do {
@@ -65,8 +65,8 @@ window.lmnt = function() {
         return count;
     }
 
-    function _children( el ) {
-        if ( el && el.children ) { return el.children; }
+    function _childElements( el ) {
+        // see above; can't trust el.children, so we have to do it manually no matter what.
         var stash = [];
         el = el ? el.firstChild : null;
         while ( el ) {
@@ -82,7 +82,7 @@ window.lmnt = function() {
         firstElementChild      : _firstElementChild,
         lastElementChild       : _lastElementChild,
         childElementCount      : _childElementCount,
-        children               : _children
+        children               : _childElements
     }
-}()
+}();
 // end of ElementTraversal polyfills
