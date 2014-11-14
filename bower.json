@@ -1,5 +1,23 @@
 {
   "name": "lmnt",
+  "description": "A non-invasive polyfill for the W3C Element Traversal Specification.",
   "version": "0.1.0",
-  "main": "lmnt.min.js"
+  "main": "lmnt.min.js",
+  "keywords": [
+  	"js",
+  	"polyfill",
+  	"DOM",
+  	"element",
+  	"traversal",
+  	"front-end",
+  	"web"
+  ],
+  "license": "MIT",
+  "authors": [
+    { "name": "Ryan Corradini", "email": "ryan@buyog.com", "homepage": "http://buyog.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buyog/lmnt.git"
+  }
 }
