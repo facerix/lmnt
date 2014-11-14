@@ -2,8 +2,8 @@
 // LMNT: replicates the Element Traversal interface
 //
 // author: Ryan Corradini
-// version: 1.1
-// date: 14 May 2012
+// version: 0.1.1
+// date: 14 Nov 2014
 // license: MIT
 //
 
