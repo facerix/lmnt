@@ -23,6 +23,14 @@ Currently lmnt.js provides its functionality as functions in a window-level name
 	var myFirstChild = lmnt.firstElementChild(parentNode);
 	
 
-Minified version coutesy of the awesome <a href="http://marijnhaverbeke.nl/uglifyjs">UglifyJS</a>.
+Minified version coutesy of the awesome [UglifyJS](http://marijnhaverbeke.nl/uglifyjs).
 
 At some point I may also provide an alternative script with a true polyfill, if I can figure out how to get IE 6 & 7 to play ball. Or not, I haven't made up my mind yet.
+
+Credits
+-------
+Thanks to:
+
+- [John Resig](ejohn.org) for the original inspiration
+- [Marijn Haverbeke](http://marijnhaverbeke.nl) for his incredibly-convenient online version of UglifyJS
+- [Mario Vejlupek](https://github.com/elmariofredo) for contributing the Bower manifest
